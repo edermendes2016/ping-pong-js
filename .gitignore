@@ -1,3 +1,11 @@
+#tokens
+.tokens
+tokens
+botagent
+.botagent
+.env
+env
+
 # Logs
 logs
 *.log
