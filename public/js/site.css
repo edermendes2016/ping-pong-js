@@ -1,0 +1,76 @@
+body {
+  background-color: #ff9292;
+  background-image: linear-gradient(to bottom right, #efff92, #92beff, #ff92ed);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }  
+  50% {
+    background-position: 100% 50%;
+  }  
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body  {
+    margin-top: 70px;
+}
+
+
+p {    
+    font-size: 16px;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+
+
+ul li {    
+    font-size: 16px;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+
+h1 {
+    font: bold 16px Arial, sans-serif;
+    color:black;
+    font-size: 60px;
+    -webkit-text-stroke: 2px rgb(255, 251, 251);
+}
+
+h2 {
+    font: bold 16px Arial, sans-serif;
+    color:black;
+    font-size: 30px;
+    -webkit-text-stroke: 1px rgb(255, 251, 251);
+}
+
+h3 {
+    font: bold 16px Arial, sans-serif;
+    color:black;
+    font-size: 30px;
+    -webkit-text-stroke: 1px rgb(255, 251, 251);
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+  }
+
+  .btn-link:hover span {
+    text-decoration: underline;
+  }
+
+  .btn-link:active i {
+    animation: animate__animated animate__bounce;
+  }
