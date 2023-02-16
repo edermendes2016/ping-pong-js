@@ -4,7 +4,7 @@ let ballSize = 10;
 let paddleWidth = 10;
 let paddleHeight = 60;
 let paddleSpeed = 5;
-let scoreLimit = 1; // pontuação necessária para vencer o jogo
+let scoreLimit = 3; // pontuação necessária para vencer o jogo
 let score1 = 0;
 let score2 = 0;
 let ball;
@@ -16,7 +16,7 @@ let speed;
 function setup() {
     createCanvas(boardWidth, boardHeight);
     ball = createVector(boardWidth / 2 - ballSize / 2, boardHeight / 2 - ballSize / 2);
-    speed = createVector(random(-5, 5), random(-5, 5));
+    speed = createVector(5, 5);
     paddle1 = createVector(paddleWidth, boardHeight / 2 - paddleHeight / 2);
     paddle2 = createVector(boardWidth - paddleWidth * 2, boardHeight / 2 - paddleHeight / 2);
 }
